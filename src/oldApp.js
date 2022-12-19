@@ -1,6 +1,6 @@
 import Contact from "./components/Contact";
 
-function App() {
+function OldApp() {
     const contacts=[
         {id:1 , fullname:"Ahmed Frikha", email:"ahmedfrikha1@gmail.com"} ,
         {id:2 , fullname:"Ahmed Frikha", email:"ahmedfrikha2@gmail.com"} ,
@@ -9,14 +9,14 @@ function App() {
 
     /*const  element=<h1>Bonjour</h1>
     return (
-       <div className="App">
+       <div className="OldApp">
          {element}
          <Contact fullname="Ahmed Frikha" email="ahmedfrikha59@gmail.com"></Contact>
          <Contact fullname="Ahmed Frikha" email={"ahmed.frikha2@insat.ucar.tn"}></Contact>
          <Contact/>
        </div>
      );*/
-    return(<div className={App}>
+    return(<div className={OldApp}>
 
         {
 
@@ -32,4 +32,4 @@ function App() {
     </div>)
 }
 
-export default App;
+export default OldApp;

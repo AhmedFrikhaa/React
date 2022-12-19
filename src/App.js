@@ -1,4 +1,6 @@
 import React from "react";
+import Counter  from "./components/Counter";
+import Switch from "./components/Switch";
 export default class extends React.Component{
 
 constructor(props) {
@@ -6,8 +8,14 @@ constructor(props) {
 }
     render() {
         return (
-            <div>
-                hello world !
+             <div>
+                 <Switch/>
+                 <Switch/>
+                 <Switch/>
+                 <Switch/>
+                 <Switch/>
+
+
             </div>
         );
     }
@@ -16,5 +24,7 @@ constructor(props) {
         console.log(" did mount");
     }
 
-    
+
+
 }
+//<Counter/>
